@@ -4,7 +4,7 @@ title: "[Bug] "
 body:
   - type: markdown
     attributes:
-      value: 请先搜索已有 Issues。安全漏洞请按 SECURITY.md 私密报告，日志和样例请脱敏。
+      value: 请先搜索已有 Issues。日志和样例请脱敏，不要公开密钥或私人材料。
   - type: textarea
     id: environment
     attributes:

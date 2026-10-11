@@ -9,7 +9,7 @@ Claude Code skill for incrementally compiling source material into a linked, Mar
 
 不是聊天式文档问答，不是 RAG，不是一次性摘要工具。它是**跨项目**的长期外部知识记忆——同一领域内所有项目向同一个库贡献，也从同一个库受益。一个知识空间一个库；领域词表装不下彼此时才再建一个（**多库不是知识岛**，库之间可以显式互链）。
 
-当前处于早期开发阶段（`0.1.0`），结构和契约可能继续演进。变化见 [更新记录](CHANGELOG.md)。
+当前处于早期开发阶段（`0.1.0`），结构和契约可能继续演进。
 
 ## 安装
 
@@ -124,9 +124,7 @@ tools/                  维护与迁移工具
 
 ## 参与贡献
 
-欢迎通过 GitHub Issues 反馈问题、提出建议，或提交 Pull Request。开发与验证流程见 [贡献指南](CONTRIBUTING.md)，漏洞报告见 [安全政策](SECURITY.md)。
-
-维护者首次上传仓库可参考 [GitHub 上传指南](PUBLISHING.md)。
+欢迎通过 GitHub Issues 反馈问题、提出建议，或提交 Pull Request。
 
 GitHub Actions 已配置 Ubuntu / Windows × Node.js 18、22、24 的验收测试；真实 agent 行为仍需按测试输出中的 `MANUAL` 清单验证。
 
