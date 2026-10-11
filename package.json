@@ -1,0 +1,39 @@
+{
+  "name": "llm-wiki",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "author": {
+    "name": "lainXXX",
+    "url": "https://github.com/lainXXX"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lainXXX/llm-wiki.git"
+  },
+  "homepage": "https://github.com/lainXXX/llm-wiki#readme",
+  "bugs": {
+    "url": "https://github.com/lainXXX/llm-wiki/issues"
+  },
+  "description": "Claude Code skill：把原始资料增量编译成互链的 markdown 个人知识 wiki（Ingest / Query / Lint）",
+  "keywords": [
+    "claude-code",
+    "skill",
+    "knowledge-base",
+    "personal-wiki",
+    "markdown"
+  ],
+  "scripts": {
+    "init": "node scripts/wiki_init.js",
+    "lint": "node scripts/wiki_lint.js",
+    "stats": "node scripts/wiki_stats.js",
+    "new-source-id": "node scripts/new_source_id.js",
+    "test": "node tests/acceptance.js"
+  },
+  "dependencies": {
+    "yaml": "^2.8.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

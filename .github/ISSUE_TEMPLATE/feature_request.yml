@@ -1,0 +1,23 @@
+name: 功能建议 / Feature request
+description: 描述使用场景、当前困难和希望得到的行为。
+title: "[Feature] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 使用场景与问题
+      description: 目前怎样使用？具体遇到了什么困难？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 期望的行为
+      description: 请说明输入、输出和对现有工作流的影响。
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 替代方案与补充信息
+      description: 当前的绕行方式、相关示例或兼容性考虑。
